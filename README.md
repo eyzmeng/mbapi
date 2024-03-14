@@ -12,5 +12,6 @@ pip is whatever ur python package manager is called
 run hello.py! you should see something like this:
 
     hi! i am Ethan (or Yizheng) :D
-    my chinese name is 蒙以正...
-    and my account was signed up by my school on Jun 06, 2023!
+    my chinese name is 蒙以正
+    and my account was signed up by my school...
+    with my e-mail eyzmeng@gmail.com on Jun 06, 2023!
