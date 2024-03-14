@@ -116,6 +116,7 @@ class StudentAPI:
         expires = session.get('expires')
         if expires is not None:
             self.expires = _from_epoch(expires)
+        return session
 
     def save_session(self, file):
         session = dict(secret=self.token,
@@ -123,7 +124,8 @@ class StudentAPI:
                                if self.expires is not None
                                else None)
         with open(file, 'w', encoding='ascii') as fp:
-            session = json.dump(session, fp)
+            json.dump(session, fp)
+        return session
 
     def __enter__(self):
         return self
