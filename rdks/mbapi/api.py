@@ -406,8 +406,11 @@ def student_class_page_to_json(html_text):
 
     section = dom.select_one('section.js-members-section')
     teachers = section.select_one('div.teachers-list')
-    list_t = [parse_teacher_element(div) for div
-              in teachers.select('div.member')]
+    if teachers is not None:
+        list_t = [parse_teacher_element(div) for div
+                  in teachers.select('div.member')]
+    else:
+        list_t = None
 
     students = section.select_one('div.students-list')
     list_s = [parse_student_element(div) for div
