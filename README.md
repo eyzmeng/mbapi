@@ -2,7 +2,7 @@
 
 easy installation:
 
-    pip install git+http://git.rapidcow.org/mbapi
+    pip install git+http://git.rapidcow.org/mbapi.git
     curl -O http://git.rapidcow.org/mbapi/plain/hello.py
 
 pip is whatever ur python package manager is called
@@ -11,7 +11,7 @@ pip is whatever ur python package manager is called
 installation in case i feel bad for leaving any trace
 on ur computer:
 
-    git clone http://git.rapidcow.org/mbapi
+    git clone http://git.rapidcow.org/mbapi.git
     cd mbapi
     python -m venv venv
 
