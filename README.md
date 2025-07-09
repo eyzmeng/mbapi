@@ -1,9 +1,9 @@
-# mbapi - an "API" for us mortal students
+# mbapi
 
 easy installation:
 
-    pip install git+http://git.rapidcow.org/mbapi.git
-    curl -O http://git.rapidcow.org/mbapi/plain/hello.py
+    pip install git+https://github.com/eyzmeng/mbapi.git
+    curl -O https://raw.githubusercontent.com/eyzmeng/mbapi/main/hello.py
 
 pip is whatever ur python package manager is called
 (pip3, python3 -m pip, etc...)
@@ -11,7 +11,7 @@ pip is whatever ur python package manager is called
 installation in case i feel bad for leaving any trace
 on ur computer:
 
-    git clone http://git.rapidcow.org/mbapi.git
+    git clone https://github.com/eyzmeng/mbapi.git
     cd mbapi
     python -m venv venv
 
