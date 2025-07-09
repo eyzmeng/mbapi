@@ -92,8 +92,8 @@ this deserves better than just the vague quirky name "ManageBac"):
 it was [saie.managebac.cn](https://saie.managebac.cn/).  if that
 looks like the grading system your school uses, this script will
 probably work on that.  (Of course, you likely won't be able to
-log in since it's kind of an internal-school-thing.  i can provide
-HTMLs i captured if you ask me :P)
+log in since it's kind of an internal-school-thing.  well neither
+can i, but i can provide HTMLs i captured if you ask me :P)
 
 and at last... why am i doing this, you may ask.  well this gets
 a bit "personal", but let's just say... i don't like being treated
@@ -108,4 +108,6 @@ also having to confront the profile picture as a face of me is
 disgusting it surely gave me nightmares ugh i hate school (well
 at least i wish paying for the tuition meant that they'd care
 enough to give us an email at their NetEase enterprise
-usapschool.com mail domain... it's like they don't even try smh)
+[usapschool.com][] mail domain... it's like they don't even try smh)
+
+[usapschool.com]: http://www.usapschool.com/ "Yes, you read the URL right.  You won't access it with http://usapschool.com/ alone since the domain doesn't resolve.  And don't even try HTTPS because their server's too dumb for a SSL handshake.  Right now they are most concerned with advertising themselves on Weixin shorts and stories/columns/whatever those articles are called.  And I hope it stays that way."
