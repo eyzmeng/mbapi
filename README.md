@@ -1,4 +1,8 @@
-# mbapi
+# mbapi - a ManageBac "API" for students
+
+(as pretty as that sounds, this is just an elaborate web scraper
+made with Python requests and BeautifulSoup dom selector.
+either way, i still hate school, so here you go GitHub.)
 
 easy installation:
 
@@ -67,3 +71,41 @@ which i'll put up here tooooo...
 
     If you wish to no longer use this program, you should
     purge this file to revoke my access to your account.
+
+## trivia (and maybe how to actually use this code)
+
+(writing this since i've graduated HS for a year...)
+
+to my knowledge there are only two people who have run this
+script (me and someone whom i am relatively closer to than
+the rest of the class (and the entire school in general)).
+hello.py worked for both of our accounts so take whatever
+you like from it (i only tested this once on that someone
+else's browser since... well you can imagine how awkward
+it was asking him about it!  If you have a problem with how
+little this was tested and developed then how about you *try*
+to talk to people as an introvert!!!)
+
+i forgot if i ever shared what my school was but seeing that it
+*probably* doesn't matter (and the intrepid soul who dares to use
+this deserves better than just the vague quirky name "ManageBac"):
+it was [saie.managebac.cn](https://saie.managebac.cn/).  if that
+looks like the grading system your school uses, this script will
+probably work on that.  (Of course, you likely won't be able to
+log in since it's kind of an internal-school-thing.  i can provide
+HTMLs i captured if you ask me :P)
+
+and at last... why am i doing this, you may ask.  well this gets
+a bit "personal", but let's just say... i don't like being treated
+as "less" than capable of speaking English and having my name
+that is technically not a legal name but i've been called by for
+long enough that it might as well be my real name, being treated
+as less than a "real name" -- like a joke "English" name exclusively
+as a device for derision and condescension and can't be seen
+actually being called that name in serious situations.
+
+also having to confront the profile picture as a face of me is
+disgusting it surely gave me nightmares ugh i hate school (well
+at least i wish paying for the tuition meant that they'd care
+enough to give us an email at their NetEase enterprise
+usapschool.com mail domain... it's like they don't even try smh)
