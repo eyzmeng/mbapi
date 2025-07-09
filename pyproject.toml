@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rdks-mbapi"
-version = "0.1.0"
+name = "mbapi"
+version = "1.0.0"
 dependencies = [
   "bs4==0.0.1",
   "requests==2.28.1",
@@ -13,10 +13,7 @@ dependencies = [
 requires-python = ">=3.9"
 authors = [{name = "Ethan Meng", email = "eyzmeng@gmail.com"}]
 maintainers = [{name = "Ethan Meng", email = "eyzmeng@gmail.com"}]
-description = "ManageBac API-like layer (private project)"
+description = "ManageBac API-like layer"
 classifiers = [
   "Programming Language :: Python"
 ]
-
-[tool.setuptools.packages.find]
-namespaces = true

@@ -1,5 +1,5 @@
 from datetime import datetime
-from rdks.mbapi import StudentAPI
+from mbapi import StudentAPI
 
 def main():
     with StudentAPI('saie.managebac.cn', 443) as client:
