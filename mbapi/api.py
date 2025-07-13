@@ -102,8 +102,8 @@ class StudentAPI:
             port = 443 if protocol == 'https' else 80
         if not isinstance(port, int):
             raise TypeError('port must be an int')
-        if not 0 <= port <= 65353:
-            raise ValueError('port must be in range 0-65353')
+        if not 0 <= port <= 65535:
+            raise ValueError('port must be in range 0-65535')
         self._port = port
         self._session = requests.sessions.Session()
         self._token = None
